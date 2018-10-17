@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Tile Setup.unity
+- path: Assets/Lac.unity
   isLoaded: 1
   isActive: 1
