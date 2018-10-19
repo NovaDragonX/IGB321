@@ -14,13 +14,18 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43
-    width: 1360
-    height: 685
+    y: 42.666668
+    width: 2560
+    height: 1357
   m_ShowMode: 4
   m_Title: 
+<<<<<<< HEAD
   m_RootView: {fileID: 2}
   m_MinSize: {x: 950, y: 300}
+=======
+  m_RootView: {fileID: 4}
+  m_MinSize: {x: 950, y: 492}
+>>>>>>> lachlansbranch
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -30,6 +35,58 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
+=======
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 800
+    y: 0
+    width: 401
+    height: 628
+  m_MinSize: {x: 150, y: 52}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 679
+    width: 1201
+    height: 628
+  m_MinSize: {x: 352, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
+  vertical: 0
+  controlID: 42
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+>>>>>>> lachlansbranch
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -41,9 +98,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1360
-    height: 685
-  m_MinSize: {x: 950, y: 300}
+    width: 2560
+    height: 1357
+  m_MinSize: {x: 950, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -61,7 +118,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1360
+    width: 2560
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -81,8 +138,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 665
-    width: 1360
+    y: 1337
+    width: 2560
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -106,13 +163,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1360
-    height: 635
-  m_MinSize: {x: 1064, y: 442}
+    width: 2560
+    height: 1307
+  m_MinSize: {x: 1067, y: 442}
   m_MaxSize: {x: 26016, y: 10021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 131173
 --- !u!114 &6
+=======
+  controlID: 40
+--- !u!114 &8
+>>>>>>> lachlansbranch
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,6 +192,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 620
     height: 635
   m_MinSize: {x: 349, y: 442}
@@ -137,6 +200,15 @@ MonoBehaviour:
   vertical: 1
   controlID: 131174
 --- !u!114 &7
+=======
+    width: 1201
+    height: 1307
+  m_MinSize: {x: 352, y: 442}
+  m_MaxSize: {x: 8006, y: 8042}
+  vertical: 1
+  controlID: 41
+--- !u!114 &9
+>>>>>>> lachlansbranch
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,6 +224,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 620
     height: 414
   m_MinSize: {x: 202, y: 221}
@@ -186,6 +259,19 @@ MonoBehaviour:
   vertical: 0
   controlID: 131175
 --- !u!114 &9
+=======
+    width: 1201
+    height: 679
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &10
+>>>>>>> lachlansbranch
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -201,6 +287,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 430
     height: 221
   m_MinSize: {x: 202, y: 221}
@@ -231,8 +318,15 @@ MonoBehaviour:
   m_MinSize: {x: 147, y: 50}
   m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 16}
+=======
+    width: 800
+    height: 628
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 17}
+>>>>>>> lachlansbranch
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &11
@@ -249,6 +343,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 620
     y: 0
     width: 204
@@ -258,6 +353,17 @@ MonoBehaviour:
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
+=======
+    x: 1201
+    y: 0
+    width: 399
+    height: 1307
+  m_MinSize: {x: 204, y: 221}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+>>>>>>> lachlansbranch
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &12
@@ -274,15 +380,25 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 824
+=======
+    x: 1600
+>>>>>>> lachlansbranch
     y: 0
-    width: 234
-    height: 635
+    width: 438
+    height: 1307
   m_MinSize: {x: 234, y: 271}
   m_MaxSize: {x: 10004, y: 10021}
+<<<<<<< HEAD
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
+=======
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 20}
+>>>>>>> lachlansbranch
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &13
@@ -299,6 +415,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1058
     y: 0
     width: 302
@@ -309,6 +426,18 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
+=======
+    x: 2038
+    y: 0
+    width: 522
+    height: 1307
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 21}
+  m_Panes:
+  - {fileID: 21}
+  - {fileID: 16}
+>>>>>>> lachlansbranch
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &14
@@ -318,6 +447,86 @@ MonoBehaviour:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
+=======
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 92
+    width: 1199
+    height: 658
+  m_PersistentViewDataDictionary: {fileID: 0}
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1646517866, guid: 4df21bd079886d84699ca7be1316c7a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 146, y: 31}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: ProBuilder
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 802
+    y: 771.3334
+    width: 397
+    height: 607
+  m_PersistentViewDataDictionary: {fileID: 0}
+  dragSelectMode: 2
+  drawNormals: 0
+  selection: []
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 300, y: 360}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Navigation
+    m_Image: {fileID: 7874161543223113035, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1007
+    y: 92
+    width: 353
+    height: 614
+  m_PersistentViewDataDictionary: {fileID: 0}
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+>>>>>>> lachlansbranch
   m_EditorHideFlags: 1
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -332,9 +541,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 506
     width: 428
     height: 200
+=======
+    y: 771.3334
+    width: 798
+    height: 607
+>>>>>>> lachlansbranch
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
@@ -346,10 +561,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -214
     m_HBaseRangeMax: 214
     m_VBaseRangeMin: -91.5
     m_VBaseRangeMax: 91.5
+=======
+    m_HBaseRangeMin: -266
+    m_HBaseRangeMax: 266
+    m_VBaseRangeMin: -196.66667
+    m_VBaseRangeMax: 196.66667
+>>>>>>> lachlansbranch
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -367,30 +589,52 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 428
       height: 183
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 214, y: 91.5}
+=======
+      width: 798
+      height: 590
+    m_Scale: {x: 1.5, y: 1.5}
+    m_Translation: {x: 399, y: 295}
+>>>>>>> lachlansbranch
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -214
       y: -91.5
       width: 428
       height: 183
+=======
+      x: -266
+      y: -196.66667
+      width: 532
+      height: 393.33334
+>>>>>>> lachlansbranch
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 428, y: 200}
+=======
+  m_LastWindowPixelSize: {x: 1197, y: 910.5}
+>>>>>>> lachlansbranch
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
   m_XRRenderMode: 0
+<<<<<<< HEAD
 --- !u!114 &15
+=======
+--- !u!114 &18
+>>>>>>> lachlansbranch
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -412,18 +656,32 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
+<<<<<<< HEAD
     width: 618
     height: 393
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
   lastFramingTime: 91249.35006993078
+=======
+    width: 1199
+    height: 658
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_SceneLighting: 1
+  lastFramingTime: 1317.996703961848
+>>>>>>> lachlansbranch
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -22.8251, y: -92.04951, z: 17.752327}
     speed: 2
     m_Value: {x: -22.8251, y: -92.04951, z: 17.752327}
+=======
+    m_Target: {x: -16.914917, y: -12.794227, z: 34.474087}
+    speed: 2
+    m_Value: {x: -16.914917, y: -12.794227, z: 34.474087}
+>>>>>>> lachlansbranch
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -451,6 +709,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.37398362, y: 0.6105148, z: -0.39812675, w: -0.57350075}
     speed: 2
     m_Value: {x: -0.37398362, y: 0.6105148, z: -0.39812675, w: -0.57350075}
@@ -458,6 +717,15 @@ MonoBehaviour:
     m_Target: 172.79674
     speed: 2
     m_Value: 172.79674
+=======
+    m_Target: {x: 0.24894322, y: -0.68254983, z: 0.26867446, w: 0.63242954}
+    speed: 2
+    m_Value: {x: 0.24894322, y: -0.68254983, z: 0.26867446, w: 0.63242954}
+  m_Size:
+    m_Target: 78.00296
+    speed: 2
+    m_Value: 78.00296
+>>>>>>> lachlansbranch
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -469,6 +737,7 @@ MonoBehaviour:
   m_ReplacementString: 
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
+<<<<<<< HEAD
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -497,6 +766,9 @@ MonoBehaviour:
   drawNormals: 0
   selection: []
 --- !u!114 &17
+=======
+--- !u!114 &19
+>>>>>>> lachlansbranch
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -516,27 +788,43 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 622
+=======
+    x: 1203.3334
+>>>>>>> lachlansbranch
     y: 92
-    width: 200
-    height: 614
+    width: 395
+    height: 1286
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 420c0900
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 9a746dfdc0c56dfd4e2872fdfa3b72fd547372fd88fc72fd3c1c74fd46b274fd68be74fd04ca74fd5ee274fd1efb74fdd60575fd922775fdfabe75fddaca75fd4ed875fdb08c76fdb0af77fdc62f78fd4e8178fd36ff78fd0c1179fd7e4f79fd76467afd04587afde4667afd2ac57afda4e07afd044496fdb8ea9dfd2cf19dfdc8119efdd0c9a6fd48d6a6fd24f9a6fd9847a7fdca57a7fd24aea7fd8a31bffd403cbffd7e41bffd5e4cbffd604fdbfde65adbfd2e9ce0fd2427e1fdd04de3fd188be3fda4cee3fdee8a02fe5a9e02fe547f03fe4a8a03fe169303fea6a103fe08c003fe0ca504feeaaf04febec004fe44ce04fe783505fef84505feb46205fe646d05fe688305fe7a9506fefea306fef27f09fe1a6f0cfe66a10efe329514fe906d45fed04a61fe9e14d2ff8a34d2ffe84cd2ffce5fd2ff6889d2ff6419ebffe6fbffff000000006c2d0100e69e0200aaba0200bed1020004e002009ce002006a92030012930300869303005c960300ec220400ae8b0400fe8c0400e08d0400c49004009c920400309604000ce2040028e50400e8af050054b00500c4b2050004b7050094e70500c0e70500a6e80500c6e8050024ea050030eb050046eb050036f105001ef205005c180800382a080056450800aee20800
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
       m_OriginalName: 
+=======
+    m_ExpandedIDs: da3dffffe4fbffff00000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: Dining room
+      m_OriginalName: Dining room
+>>>>>>> lachlansbranch
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
+<<<<<<< HEAD
       m_UserData: 0
+=======
+      m_UserData: -3226840
+>>>>>>> lachlansbranch
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 11
@@ -544,12 +832,20 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 0}
     m_SearchString: 
   m_ExpandedScenes:
+<<<<<<< HEAD
   - Level 2
+=======
+  - Ethan's scene
+>>>>>>> lachlansbranch
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
   m_CurrentSortingName: TransformSorting
+<<<<<<< HEAD
 --- !u!114 &18
+=======
+--- !u!114 &20
+>>>>>>> lachlansbranch
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -569,10 +865,14 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 826
+=======
+    x: 1602
+>>>>>>> lachlansbranch
     y: 92
-    width: 230
-    height: 614
+    width: 434
+    height: 1286
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -586,20 +886,36 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets
+=======
+    - Assets/Materials & Textures
+>>>>>>> lachlansbranch
   m_ViewMode: 1
   m_StartGridSize: 50
   m_LastFolders:
+<<<<<<< HEAD
   - Assets
   m_LastFoldersGridSize: 50
   m_LastProjectPath: C:\Users\lachl\Documents\IGB123 repo\IGB321\Assignment 3 Base
+=======
+  - Assets/Materials & Textures
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: H:\IGB321 week12\IGB321\Assignment 3 Base
+>>>>>>> lachlansbranch
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: b80a0000
     m_LastClickedID: 2744
     m_ExpandedIDs: 00000000b80a0000500b0000f80c0000840e0000320f0000380f00004a110000c413000000ca9a3b
+=======
+    m_SelectedIDs: 58100000
+    m_LastClickedID: 4184
+    m_ExpandedIDs: 00000000b20a0000280b00006a0c00008a0d00000a0e00000e0e00006e0f0000581000002a11000000ca9a3b
+>>>>>>> lachlansbranch
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -627,7 +943,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000b80a0000500b0000f80c0000840e0000320f0000380f00004a110000c413000000ca9a3b
+=======
+    m_ExpandedIDs: 00000000b20a0000280b00006a0c00008a0d00000a0e00000e0e00006e0f00002a110000
+>>>>>>> lachlansbranch
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -679,10 +999,17 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
+<<<<<<< HEAD
     m_ScrollPosition: {x: 0, y: 867.5}
     m_GridSize: 50
   m_DirectoriesAreaWidth: 110
 --- !u!114 &19
+=======
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_DirectoriesAreaWidth: 197
+--- !u!114 &21
+>>>>>>> lachlansbranch
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -702,10 +1029,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1060
     y: 92
     width: 300
     height: 614
+=======
+    x: 2040
+    y: 92
+    width: 520
+    height: 1286
+>>>>>>> lachlansbranch
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
