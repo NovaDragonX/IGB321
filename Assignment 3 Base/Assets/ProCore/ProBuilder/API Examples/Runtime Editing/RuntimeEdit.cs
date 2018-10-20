@@ -1,7 +1,6 @@
 #if UNITY_STANDALONE || UNITY_EDITOR
 
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 using ProBuilder2.Common;
 
@@ -71,24 +70,24 @@ namespace ProBuilder2.Examples
 			SpawnCube();
 		}
 
-        /**
+		/**
 		 *	\brief This is the usual Unity OnGUI method.  We only use it to show a 'Reset' button.
 		 */
-        void OnGUI()
-        {
-            // To reset, nuke the pb_Object and build a new one.
-            if (GUI.Button(new Rect(5, Screen.height - 25, 80, 20), "Reset"))
-            {
-                currentSelection.Destroy();
-                Destroy(preview.gameObject);
-                SpawnCube();
-            }
-        }
+		void OnGUI()
+		{
+			// To reset, nuke the pb_Object and build a new one.
+			if(GUI.Button(new Rect(5, Screen.height - 25, 80, 20), "Reset"))
+			{
+				currentSelection.Destroy();
+				Destroy(preview.gameObject);
+				SpawnCube();
+			}
+		}
 
-        /**
+		/**
 		 *	\brief Creates a new ProBuilder cube and sets it up with a concave MeshCollider.
 		 */
-        void SpawnCube()
+		void SpawnCube()
 		{
 			// This creates a basic cube with ProBuilder features enabled.  See the ProBuilder.Shape enum to
 			// see all possible primitive types.
