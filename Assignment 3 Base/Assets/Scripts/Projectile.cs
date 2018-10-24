@@ -7,7 +7,7 @@ public class Projectile : MonoBehaviour {
     public float speed = 10.0f;
     public float damage = 5.0f;
 
-    private float lifeTime = 1.5f;
+    private float lifeTime = 0.095f;
 
     private void Start() {
         Destroy(this.gameObject, lifeTime);
